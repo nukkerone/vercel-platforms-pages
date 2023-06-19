@@ -51,6 +51,7 @@ export const getTweets = async (id: string) => {
 
     // Function to distinguish between external URLs and external t.co links and internal t.co links
     // (e.g. images, videos, gifs, quote tweets) and remove/replace them accordingly
+    // @ts-ignore
     function getExternalUrls(tweet: TweetData) {
       const externalURLs = tweet?.entities?.urls;
 
