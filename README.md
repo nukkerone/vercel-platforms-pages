@@ -7,7 +7,7 @@
 
 <p align="center">
   The <em>all-in-one</em> starter kit <br/>
-  for building platforms on Vercel
+  for building platforms on Vercel.
 </p>
 
 <p align="center">
